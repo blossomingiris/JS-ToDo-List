@@ -1,5 +1,5 @@
-- JS ToDo list is one of the earliest project in my Frontend study path :woman_student:
-- was built with HTML, CSS and JS :muscle:
-- has basic functionality and cute design :hatching_chick:
-- feels a bit messy but i left how it was to trck how i grow up in my skills since :relaxed:
-- link to the project 
+- JS ToDo list is one of the earliest project in my Frontend path :woman_student:
+- was built with HTML, CSS and JavaScript :muscle:
+- has basic functionality and cute design :sloth:
+- feels a bit messy but i left how it was to track my progress in coding since :relaxed:
+- [link to the project](https://precious-boba-8df571.netlify.app)
