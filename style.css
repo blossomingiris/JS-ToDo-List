@@ -1,0 +1,265 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	background-color: rgb(34, 51, 67);
+}
+
+h2 {
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	font-size: 14px;
+	color: #fff;
+	text-align: right;
+	padding-right: 3px;
+	text-shadow: 1px 2px 3px black;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	width: 400px;
+	height: 680px;
+	text-align: left;
+	border-radius: 8px;
+	background-color: #fff;
+	box-shadow: 0 0 3px #fff;
+	position: relative;
+}
+
+
+.logo {
+	padding: 5px 10px;
+}
+
+
+.colorText {
+	color: rgb(244, 132, 30);
+}
+
+.currentDate {
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	font-size: 20px;
+	color: rgb(244, 132, 30);
+	text-shadow: 1px 2px 3px black;
+	margin: auto;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.task-tracking {
+	margin-left: 25px;
+	width: 310px;
+	height: 30px;
+	border: 0;
+	background-color: #fff;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	color: darkorange;
+	font-weight: bold;
+	font-size: 16px;
+	margin-left: 15px;
+	display: inline-block;
+	font-style: italic;
+	margin-top: 10px;
+}
+
+.task-tracking:hover {
+	opacity: 0.8;
+}
+
+.customize {
+	width: 325px;
+	display: inline-block;
+	text-align: left;
+	margin-top: 10px;
+	position: relative;
+	border-bottom: 1px dashed lightgrey;
+}
+
+.task-li {
+	display: inline;
+	margin-left: 5px;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	font-size: 18px;
+	position: relative;
+	padding: 2px;
+	margin-right: 0;
+	box-sizing: border-box;
+	word-wrap: break-word;
+}
+
+.task-li:hover {
+	opacity: 0.7;
+	font-weight: bold;
+}
+
+.option {
+	display: block;
+	margin-bottom: 0.25em;
+}
+
+.check {
+	padding-left: 1.4em;
+}
+
+.check-input {
+	position: absolute;
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+.check-box {
+	position: absolute;
+	width: 0.9em;
+	height: 0.9em;
+	border: 1px solid grey;
+	margin-top: 3px;
+	background-color: #fff;
+	border-radius: 50%;
+	margin-left: -1.4em;
+	cursor: pointer;
+}
+
+.check-input:checked+.check-box {
+	width: 1em;
+	height: 1em;
+	background-image: url(icons/checked.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	border: none;
+}
+
+.check-input:checked:hover+.check-box {
+	width: 1.1em;
+	height: 1.1em;
+}
+
+.check-box:hover {
+	border: 2px solid #66bb6a;
+}
+
+#cleanList {
+	background-color: #fff;
+	padding: 10px;
+}
+
+.checked {
+	text-decoration: line-through;
+	color: grey;
+}
+
+#main-header {
+	height: 220px;
+	background-image: url(images/bg.jpg);
+	opacity: 95%;
+	position: relative;
+	box-sizing: border-box;
+	border-radius: 8px 8px 0 0;
+}
+
+#date-container {
+	text-align: center;
+}
+
+#inputTask {
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	font-size: 18px;
+	background: transparent;
+	border: 0;
+	width: 315px;
+	height: 25px;
+	color: black;
+	outline: none;
+	border-bottom: 1px solid grey;
+	margin-left: 25px;
+	margin-bottom: 5px;
+}
+
+#inputTask:focus {
+	border-bottom-width: 2px;
+}
+
+#day-of-week {
+	color: #fff;
+	padding-top: 100px;
+	font-size: 40px;
+	text-shadow: 1px 2px 3px black;
+}
+
+#inner-input-container {
+	position: absolute;
+	bottom: 20px;
+}
+
+#todo-list {
+	height: 378px;
+	width: 390px;
+	overflow: hidden;
+	margin: 0;
+	position: relative;
+	padding-left: 40px;
+}
+
+#addTask {
+	border-radius: 50%;
+	width: 29px;
+	height: 29px;
+	border: none;
+	cursor: pointer;
+	background-color: rgb(244, 132, 30);
+	margin-left: 5px;
+	background-image: url(icons/add1.png);
+	background-position: center center;
+}
+
+#addTask:hover {
+	opacity: 0.8;
+	background-image: url(icons/add2.png);
+	width: 31px;
+	height: 31px;
+
+}
+
+#cleanList {
+	border-radius: 50%;
+	background-image: url(/icons/refresh.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	cursor: pointer;
+	border: none;
+	width: 30px;
+	height: 30px;
+	background-color: #fff;
+	cursor: pointer;
+	margin-left: 35px;
+	margin-top: 8px;
+}
+
+#cleanList:hover {
+	opacity: 0.8;
+}
+
+#deleteButton {
+	border-radius: 50%;
+	width: 1.4em;
+	height: 1.4em;
+	border: none;
+	cursor: pointer;
+	background-color: #fff;
+	background-image: url(icons/delete.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: absolute;
+	background-color: #fff;
+	margin-top: 10px;
+}
+
+#deleteButton:hover {
+	opacity: 0.8;
+	width: 1.5em;
+	height: 1.5em;
+}
