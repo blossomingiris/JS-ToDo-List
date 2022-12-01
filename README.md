@@ -1,4 +1,5 @@
 - JS ToDo list is one of the earliest project in my front-end path
+- Allows to manage a list of tasks to do and performs adding, deleting, toogle comleted tasks and editing state of each task. Includes light & dark mode.
 - built with HTML, CSS and JavaScript 
 - has basic functionality and cute design
 - demo is [here](https://precious-boba-8df571.netlify.app)
