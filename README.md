@@ -2,8 +2,15 @@
 
 ## Todo application (JS)
 
-- allows to manage a list of tasks to do and performs adding, deleting, toogle comleted tasks and editing state of each task.
-- built with HTML, CSS and JavaScript 
-- demo is [here](https://precious-boba-8df571.netlify.app)
+## Description: 
+Allows to manage a list of tasks to do and performs adding, deleting, toogle comleted tasks and editing state of each task
+
+## Technologies: 
+- HTML
+- CSS 
+- JavaScript 
+
+## Demo: 
+[Here](https://precious-boba-8df571.netlify.app)
 
 Note: This ToDo list is one of the earliest project in my front-end path and source code wasn't touch to track my progress since. 
